@@ -4,7 +4,7 @@ int main()
 	int lenght1,lenght2,lenght3;
 	printf("Please,write your triangles lenght");
 	scanf("%d,%d,%d",&lenght1,&lenght2,&lenght3);
-	if(lenght1==lenght2==lenght3)
+	if(lenght1==lenght2 && lenght2==lenght3)
 	 {printf("Your triangle is equilateral");}
 	else if(lenght1==lenght2)
 	 {printf("Your triangle is isosceles");}
